@@ -7,6 +7,7 @@
     <title>Registration Form</title>
 </head>
 <body>
+    <form onSubmit="showdata()">
     <label>First Name:</label><br/>
     <input type="text" id="first_name"></input><br/>
     <label>Last Name</label><br/>
@@ -17,8 +18,8 @@
     <input type="email" id="mail"><br/>
     <label>Age</label><br/>
     <input type="text" maxlength="3" min="0" id="age"><br/><br/>
-    <input type="submit" onclick="showdata()">
-    
+    <input type="submit">
+    </form>
     <script src="./form.js"></script>
 </body>
 </html>
